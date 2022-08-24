@@ -23,24 +23,25 @@
             <br>
             <br>
             <label for="nome">Nome da série:</label><br>
-            <input type="text" id="nome da série">
-            <br>
+            <input type="text" id="nomeDaSerie" required onkeyup="validarSerie()">
+            <div id="txtNomeDaSerie"></div>
             <br>
             <label for="nome">Canal/Streaming:</label><br>
-            <input type="text" id="canal">
-            <br>
+            <input type="text" id="canal" required onkeyup="validarCanal()">
+            <div id="txtCanal"></div>
             <br>
             <label for="quantidade">Quantidade de temporadas:</label><br>
-            <input type="number" id="quantidade" min="1">
+            <input type="number" id="quantidade" min="1" required onkeyup="validarQtd()">
+            <div id="txtQtd"></div>
             <br>
-            <br>
-            <button>Enviar</button>
+            <button onclick="enviar()">Enviar</button>
         </form>
     </div>
     <hr>
     <footer>
         <p class="center">Todos os direitos reservados &copy;</p>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
