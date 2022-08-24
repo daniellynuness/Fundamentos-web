@@ -1,0 +1,36 @@
+/*estilo do index*/
+.center {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center a {
+    text-decoration: none;
+    color: blue;
+}
+.center a:hover {
+    color: black;
+}
+.flex-container ol{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:baseline;
+    padding: 10px;
+    justify-content:space-evenly;
+}
+.flex-container a{
+    text-decoration: none;
+}
+.titulo {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*estilo da indicaçao*/
+.voltar a {
+    text-decoration: none;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.voltar a :hover{
+    color: black;
+}
